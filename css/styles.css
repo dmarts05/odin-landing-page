@@ -46,7 +46,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   gap: 3em;
-  padding: 2vh 0;
+  padding: 1em 0;
   border-bottom: 2px solid var(--accent-color);
 }
 
@@ -61,5 +61,5 @@ header nav a {
 }
 
 .logo {
-  max-width: 4em;
+  max-width: 3.5em;
 }
