@@ -2,6 +2,7 @@
 
 :root {
   --accent-color: #05386b;
+  --dark-accent-color: #07315c;
   --base-color: #5cdb95;
   --light-base-color: #8ee4af;
   --dark-base-color: #379683;
@@ -189,7 +190,7 @@ header nav>div:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #07315c;
+  background-color: var(--dark-accent-color);
   width: 13em;
   height: 13em;
   border-radius: 100%;
