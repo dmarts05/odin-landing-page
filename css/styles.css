@@ -21,7 +21,6 @@ h2 {
   font-weight: 700;
 }
 
-.big-letter,
 h1 {
   color: var(--off-white-color);
   font-family: "PT Sans Caption", sans-serif;
@@ -53,11 +52,6 @@ button:hover {
   color: var(--accent-color);
   background-color: var(--off-white-color);
   cursor: pointer;
-}
-
-.big-letter {
-  font-size: 1.5em;
-  letter-spacing: 0.075em;
 }
 
 .current {
@@ -169,7 +163,7 @@ header nav>div:hover {
 }
 
 .phone-mockup {
-  max-width: 25em;
+  max-width: 30em;
 }
 
 /* Features Section */
