@@ -12,7 +12,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans Caption", "Open Sans", sans-serif;
 }
 
 a,
@@ -62,6 +62,10 @@ button:hover {
 
 .current {
   opacity: 1;
+}
+
+.green-text {
+  color: var(--base-color);
 }
 
 /* Main container */
@@ -131,7 +135,7 @@ header nav>div:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 89vh;
+  height: 90.7vh;
   background-image: url("../img/hero-background.png");
   background-position: center;
   background-size: cover;
@@ -166,4 +170,64 @@ header nav>div:hover {
 
 .phone-mockup {
   max-width: 25em;
+}
+
+/* Features Section */
+.features-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-color);
+  padding: 0 6em;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em 6em;
+}
+
+.features .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07315c;
+  width: 13em;
+  height: 13em;
+  border-radius: 100%;
+  gap: 0.5em;
+  color: var(--off-white-color);
+  font-weight: 700;
+  border: 0.25em solid var(--base-color);
+  box-shadow: 5px 11px 4px 2px rgba(0, 0, 0, 0.11);
+}
+
+.features .card i {
+  color: var(--base-color);
+  font-size: 2.5em;
+  margin-bottom: 0.25em;
+}
+
+.features .card h3 {
+  letter-spacing: 0.1em;
+  color: var(--off-white-color);
+}
+
+.features .card p {
+  font-size: 0.8em;
+}
+
+.features .card a {
+  border-bottom: 0.15em solid var(--base-color);
+  border-radius: 0.25em;
+  transition: all 0.25s;
+}
+
+.features .card a:hover {
+  color: var(--light-base-color);
+  border-bottom: 0.15em solid var(--light-base-color);
 }
