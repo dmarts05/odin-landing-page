@@ -67,11 +67,14 @@ button:hover {
 
 .container {
   background-color: var(--base-color);
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header styling */
 
 header {
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -225,4 +228,54 @@ header nav>div:hover {
 .features .card a:hover {
   color: var(--light-base-color);
   border-bottom: 0.15em solid var(--light-base-color);
+}
+
+/* Quote Section */
+
+.quote-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-accent-color);
+  padding: 0 6em;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
+  max-width: 80%;
+}
+
+.quote .quote-message {
+  color: var(--off-white-color);
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.quote .quote-author {
+  color: var(--base-color);
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.5vh;
+}
+
+footer p {
+  color: var(--accent-color);
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
